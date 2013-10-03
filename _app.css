@@ -12,8 +12,15 @@ header {
     padding: 10px;
 }
 
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 38px;
+}
+.logo>img{
+    width: 32px;
+}
 .mynav {
-    
     position: fixed;
     top: 42px;
     left: 0;
@@ -26,12 +33,12 @@ header {
 }
 .col3{
     float: left;
-    width: 33%;
+    width: 33.334%;
     text-align: center;
 }
 
 .col33{
-    width: 33%;
+    width: 33.334%;
 }
 
 .footer {
@@ -120,8 +127,17 @@ display: none;
     text-decoration: inherit;
 }
 
+.pullLeft {
+    float: left;
+}
+
 .pullRight {
     float: right;
+    text-align: right;
+}
+
+.pointCursor{
+    cursor: pointer;
 }
 
 [class*="icon-"]:hover {

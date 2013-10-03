@@ -5,6 +5,7 @@ var btnFeed=$('#feed');
 var btnPeople=$('#people');
 var btnMe=$('#me');
 var btnLoding=$('#loading');
+var navName=$('#navName');
 
 var html=container.html();
 //container.html('');
@@ -14,14 +15,17 @@ btnBack.on('click', function(){
 
 
 btnFeed.on('click', function(){
+	navName.html('Comaround+');
 	showContents(html);
 });
 
 btnPeople.on('click', function(){
+	navName.html('People');
 	showContents(html);
 });
 
 btnMe.on('click', function(){
+	navName.html('Me');
 	showContents(html);
 });
 
