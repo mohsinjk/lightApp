@@ -1,6 +1,7 @@
 master
 Feature_x
 Feature_x1
+Feature_x2
 
 Test TestTest 
 Test TestTest 
